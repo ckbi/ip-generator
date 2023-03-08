@@ -5,11 +5,11 @@ filename = 'ipFile_{}.txt'.format(datetime.datetime.now().strftime("%m-%d-%Y_%H%
 f = open(filename, 'w')
 
 def firstIP():
-    userIP = (input('metti un ip : '))
+    userIP = (input('put an ip number: '))
     return userIP
 
 def numSIMs():
-    userNum = (input('metti in numero di sim: '))
+    userNum = (input('Put a sim number: '))
     userNum = int(userNum)
     return userNum
 
